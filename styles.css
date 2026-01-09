@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+    animation: anm 4s forwards;
+    animation-delay: 0.3s;
+    opacity: 1;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Monda", sans-serif;
+}
+p,
+a {
+    font-family: "Roboto", sans-serif;
+}
+@keyframes anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nav {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 125%;
+    justify-content: space-around;
+    transition: 2s;
+}
+.nav img {
+    width: 25%;
+}
+#div1 {
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+}
+#div1 a:hover {
+    color: red;
+    cursor: pointer;
+}
+ol {
+    list-style-type: none;
+    display: flex;
+    width: 27%;
+}
+ol a:hover {
+    color: red;
+    cursor: pointer;
+}
+.sec1 {
+    background: url(https://global.redmagic.gg/cdn/shop/files/5120_1100_2x_58c5419e-cc38-4607-85c4-518193b724b1_x550.jpg?v=1763373911);
+}
+.h3 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.p1 {
+    font-size: 26px;
+    color: red;
+    margin: 0;
+}
+.p2 {
+    font-size: 17px;
+}
+.a1 {
+    background-color: #ff0000;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    align-content: center;
+    padding: 0 36px;
+    transition: 2s;
+}
+.d3 {
+    width: 36%;
+    display: flex;
+    justify-content: space-around;
+}
+.a1:hover {
+    background-color: #c40c0c;
+    cursor: pointer;
+}
+.a2 {
+    font-size: 1.25rem;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+.a2:hover {
+    background-color: black;
+    color: white;
+}
+.ght {
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    z-index: -110;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    position: fixed;
+}
+@keyframes logo {
+    0% {
+        opacity: 1;
+        z-index: 100;
+    }
+    100% {
+        opacity: 1;
+        z-index: 110;
+    }
+}
+.ght img {
+    animation-name: logo2;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
+}
+@keyframes logo2 {
+    0% {
+    }
+    50% {
+        transform: scale(0.96);
+        opacity: 0.09;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.d5 {
+    padding: 100px 40px;
+}
+.sec2 {
+    background: url(https://global.redmagic.gg/cdn/shop/files/AstraOP-5120_1100_2x_88b6f4b4-ea16-4bcd-8c02-cd082c58b548_x550.jpg?v=1752492827);
+}
+.sec1,
+.sec2,
+.sec3 .sec4 {
+    width: 100%;
+    background-size: cover;
+
+    background-position: center;
+}
+.sec3 {
+    background: url(https://global.redmagic.gg/cdn/shop/files/1024_500_2x_83d23c5d-ad4c-498c-b0f8-cd42fb6da29c_x500@2x.jpg?v=1745997744);
+    background-position: center;
+    background-size: cover;
+}
+.sec4 {
+    background: url(https://global.redmagic.gg/cdn/shop/files/EN_1024_500_2x_64b5c8d6-42d3-4d57-8626-a52bdef64310_x500@2x.png?v=1750133207);
+    background-position: center;
+    background-size: cover;
+}
+.gamepad3 {
+    background: url(https://global.redmagic.gg/cdn/shop/files/card_04_pc_2x_d27c45b6-e044-4e41-af9e-68ea1ad18058_x620.png?v=1754279125);
+    background-size: contain;
+    width: 46%;
+    height: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec5 {
+    width: 100%;
+    background-color: black;
+    height: 83vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 57px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+.Cooling {
+    background: url(https://global.redmagic.gg/cdn/shop/files/card_03_pc_2x_2abddee7-5ebe-4dcc-b3db-55348bad2781_x620.png?v=1754279136);
+    width: 46%;
+    height: 85%;
+    background-size: cover;
+    background-position: center;
+}
+.coolgame {
+}
+.gamepad3 h4 {
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin: 0;
+}
+#rul {
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
+}
+#up {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 50px;
+    color: rgba(87, 87, 87, 0.83);
+}
+.gamepad3 a {
+    margin-top: 20px;
+}
+.Cooling p,
+h4,
+a {
+    margin: 0;
+}
+.Cooling h4 {
+    padding-top: 42px;
+}
+.Cooling p {
+    font-size: 16px;
+}
+#max {
+    color: rgba(87, 87, 87, 0.83);
+    padding-top: 12px;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.a22 {
+    color: red;
+    font-size: 14px;
+}
+.XP {
+    background: url(https://i.allo.ua/media/Rich_Review/Nubia_Red_Magic_TWS/4.webp);
+    background-size: cover;
+    width: 46%;
+    height: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.game {
+    background: url(https://global.redmagic.gg/cdn/shop/files/refer-pc-home-2560_792-1_2x_4fad8884-b556-4793-a3d7-8e1e21b9ac1e_x704.png?v=1765868100);
+    background-position: center;
+    width: 40%;
+    background-repeat: no-repeat;
+    height: 85%;
+}
+.XP h4 {
+    padding-top: 54px;
+}
+.game h4 {
+    padding-top: 54px;
+}
+.sec6 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mag {
+    font-size: 38px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 7%;
+    flex-direction: column;
+}
+.sec6 p {
+    height: 3%;
+}
+.gp {
+    font-size: 21px;
+    color: grey;
+}
+.img4 {
+    width: 9%;
+    padding-top: 144px;
+}
+.img5 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: gray;
+}
+.img4 img {
+    width: 100%;
+}
