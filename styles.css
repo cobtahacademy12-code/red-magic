@@ -309,4 +309,29 @@ a {
     color: #fff;
     margin: 0 auto;
     text-align: center;
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+footer h2 {
+    color: white;
+}
+.footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#foot-div {
+    width: 50%;
+}
+.footer-div div {
+    width: 33%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-div ul li {
+    margin-bottom: 7px;
 }
